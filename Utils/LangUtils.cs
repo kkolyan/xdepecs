@@ -29,7 +29,6 @@ namespace SafeEcs
             return default;
         }
 
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static string ShallowListToString<T>(this IEnumerable<T> list, string delimiter = ", ")
         {
             return list
